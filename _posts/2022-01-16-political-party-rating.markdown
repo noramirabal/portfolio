@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2022-01-16
-img: cabin.png
+img: political-parties.png
 alt: image-alt
 project-date: December 2021
 client: Data Analytics Project
