@@ -60,7 +60,7 @@ address:
   - line: Orange, CA 92866
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'To all that have contributed and helped me along the way.'
 
 # Build settings
 markdown: kramdown
