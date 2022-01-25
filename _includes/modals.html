@@ -25,9 +25,15 @@
                                         </strong>
                                     </li>
                                 {% endif %}
+                                {% if post.category %}
+                                    <li>Service:
+                                        <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                        </strong>
+                                    </li>
+                                {% endif %}
                                 {% if post.project-subject %}
                                 <li>Project:
-                                    <strong><a href="{{ post.project-url }}">{{ post.project-subject }}</a>
+                                    <strong><a href="{{ post.project-git-url }}">{{ post.project-subject }}</a>
                                     </strong>
                                 </li>
                                 {% endif %}
@@ -40,12 +46,6 @@
                                 {% if post.project-date %}
                                     <li>Date:
                                         <strong>{{ post.project-date }}
-                                        </strong>
-                                    </li>
-                                {% endif %}
-                                {% if post.category %}
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
