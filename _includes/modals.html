@@ -25,9 +25,27 @@
                                         </strong>
                                     </li>
                                 {% endif %}
+                                {% if post.project %}
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">{{ post.project }}</a>
+                                    </strong>
+                                </li>
+                                {% endif %}
+                                {% if post.project-subject %}
+                                <li>Client:
+                                    <strong><a href="{{ post.project-urlt }}">{{ post.project-subject }}</a>
+                                    </strong>
+                                </li>
+                                {% endif %}
+                                {% if post.project-type %}
+                                    <li>Date:
+                                        <strong>{{ post.project-type }}
+                                        </strong>
+                                    </li>
+                                {% endif %}
                                 {% if post.project-date %}
                                     <li>Date:
-                                        <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                        <strong>{{ post.project-date }}
                                         </strong>
                                     </li>
                                 {% endif %}
